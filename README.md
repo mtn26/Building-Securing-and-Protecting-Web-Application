@@ -22,8 +22,8 @@ This project consists of building, securing, and protecting a cloud application 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://photos.google.com/photo/AF1QipPQmik8tsKxfDRvAiMcWSn54qvyi2pm7DhOk1JS" alt="Resume Github P1 pic 1"/>
+1. First you select "App Services" from the Azure search field at the top of the page, as the following image shows<br/>
+ <img src="https://github.com/mtn26/Securing-Web-Application/blob/main/Resume%20Github%20P1%20pic%201.PNG?raw=true" alt="Resume Github P1 pic 1"/>
 <br />
 <br />
 Select the disk:  <br/>
