@@ -154,6 +154,20 @@ In the same index.html file, replace "Blog Post 1 & 2 Titles, change "Add Keywor
 <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2014.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>4. After each update to your webpage, make sure you back up your index.html file to your /home directory (which stays persistent across reboots) with the following command:
+
+cp /var/www/html/index.html /home
+
+
+
+In case you need to restore your index.html file, run the following command:
+
+cp /home/index.html /var/www/html/ 
+
+
+
+After you have saved and backed up your changes, return to your browser and refresh your webpage.</p>
+
 <!--
  ```diff
 - text in red
