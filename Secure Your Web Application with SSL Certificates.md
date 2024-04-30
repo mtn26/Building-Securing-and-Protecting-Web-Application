@@ -16,22 +16,14 @@
 <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2022.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-3. After pressing Enter, you will be asked several questions about your certificate. Answer the following:
-
-
-Country Name (2 letter code) [AU]: Enter your country.
-
-State or Province Name (full name) [Some State]: Enter your state.
-
-Locality Name (e.g., city) [ ]: Enter your city.
-
-Organization Name (e.g., company) [Internet Widgits Pty Ltd]: Enter "Student".
-
-Organizational Unit Name (e.g., section) [ ]: Leave blank by pressing Enter.
-
-Common Name (e.g., server FQDN or YOUR name) [ ]: Enter your full domain name, such as "melaisecurityresume.com".
-
-Email Address [ ]: Leave blank by pressing Enter <br/> <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2021.png?raw=true" alt="Disk Sanitization Steps"/>
+3. On the "Create key vault" tab, make the following selections:
+Subscription/Resource Group: Select the same subscription and resource groups that you selected on Day 1.
+Key Vault Name: Choose a key vault name, such as project1-KeyVault. (Note: This name must be globally unique, so you will be prompted to choose a different name if the one you enter has been used before.)
+Region: Select the same region that you selected on Day 1.
+Pricing tier: Select the "Standard" tier.
+Leave the default options for all of the other tabs (Access Policy, Networking, Tags).
+The following image shows the completed "Create key vault" tab:
+ <br/> <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2021.png?raw=true" alt="Disk Sanitization Steps"/>
 
 <br />
 <br />
