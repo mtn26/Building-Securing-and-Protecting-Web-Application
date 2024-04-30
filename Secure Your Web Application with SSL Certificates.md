@@ -1,6 +1,7 @@
 <h2>Part 1: Create a Key Vault</h2>
-<p>1. From your Azure portal, access the same Cloud Shell that you accessed on Day 1 to load the Docker container, as the following image shows. From this command line, you will now use the open source cryptography and SSL/TLS “toolkit” OpenSSL :
-<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2019.png?raw=true" alt="Disk Sanitization Steps"/>
+<p>1. Begin by logging in to the Azure portal: https://portal.azure.com. Select "Key vaults" from the Azure search field at the top of the page, as the following image shows:
+
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2022.png?raw=true" alt="Disk Sanitization Steps"/>
 
 
 </p>
@@ -8,10 +9,11 @@
 
 
 <p align="center">
-2. Next, you will use OpenSSL to generate a self-signed certificate. A self-signed certificate is a certificate that has not been signed by a certificate authority. From the command line, enter the following command: openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout <privatekeyname.key> -out <certificatename.crt> -addext "extendedKeyUsage=serverAuth"
+2. Select "+ Create" from the Key Vault page to create your key vault, as the following image shows:
+
 
 : <br/>
-<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2020.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2022.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 3. After pressing Enter, you will be asked several questions about your certificate. Answer the following:
