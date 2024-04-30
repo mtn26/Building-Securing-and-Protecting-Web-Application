@@ -1,6 +1,7 @@
 <h2>Part 1: Create a Front Door Instance</h2>
 
 <p align="center">
+
 1. Begin by logging in to the Azure portal: https://portal.azure.com.
 
 2. Next, access the app service resource.
@@ -24,9 +25,21 @@
 
 - Click the “OK” button at the bottom of the pane
 <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2030.png?raw=true" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
+7. This will return you to the Azure Front Door page.
+
+-Click “Create” to update the Front Door instance to your application.
+
+8. To verify that your Front Door instance has been set up correctly, select “Azure Front Door”.
+
+9. The message “Azure Front Door is configured for your web app” should display as confirmation, as shown in the following image:
+
+     <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Project%201%20day%203%20front%20door.PNG?raw=true" width="80%" alt="Disk Sanitization Steps"/>
+
+
 Select the disk:  <br/>
 <img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
