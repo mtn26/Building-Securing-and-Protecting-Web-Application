@@ -94,21 +94,28 @@ Email Address [ ]: Leave blank by pressing Enter.
 
 4. Now, view your newly created key (.key) and certificate (.crt) by running ls. Note that Azure requires a PFX format for its certificates.
 The PFX format is the server certificate and the private key combined into a single encrypted file.
-<br/>
+5. To create a PFX format, run the following command: openssl pkcs12 -export -out new_certificatename.pfx -inkey keyname.key -in certificename.crt
+  
+6. After pressing Enter, you will be prompted for a password to encrypt your PFX key. Don't forget your password, as you will be prompted for it again shortly. View your new PFX certificate by running ls, as the following image shows:
 
+: <br/>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2015.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-5. To create a PFX format, run the following command: openssl pkcs12 -export -out <new_certificatename.pfx> -inkey <keyname.key> -in <certificename.crt>
+7. To download your new PFX certificate, complete the following four steps:
+
+
+(1) Click the “Upload/Download” icon in the toolbar above your Cloud Shell window.
+
+(2) Select “Download.”
+
+(3) Enter the name of your PFX certificate in the "Download a file" window.
+
+(4) Click “Download.”
+
+The following image shows these steps:
 :  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2026.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
