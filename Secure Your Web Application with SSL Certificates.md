@@ -92,6 +92,38 @@ Email Address [ ]: Leave blank by pressing Enter.
 <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2021.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+4. Now, view your newly created key (.key) and certificate (.crt) by running ls. Note that Azure requires a PFX format for its certificates.
+The PFX format is the server certificate and the private key combined into a single encrypted file.
+<br/>
+
+<br />
+<br />
+5. To create a PFX format, run the following command: openssl pkcs12 -export -out <new_certificatename.pfx> -inkey <keyname.key> -in <certificename.crt>
+:  <br/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Enter the number of passes: <br/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirm your selection:  <br/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Wait for process to complete (may take some time):  <br/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Sanitization complete:  <br/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
 <!--
  ```diff
 - text in red
