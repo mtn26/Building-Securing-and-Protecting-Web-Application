@@ -39,9 +39,34 @@
 
      <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Project%201%20day%203%20front%20door.PNG?raw=true" width="80%" alt="Disk Sanitization Steps"/>
 
+     <br>
+     </br>
 
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<h2>Part 2: Analyze WAF Rule Sets</h2>
+
+   1) From your Azure portal, enter “web app” until “Web Application Firewall policies (WAF)” appears as one of the choices in the dropdown.
+
+   2) Select that option. The WAF that you created during the previous step should display on the “Web Application Firewall policies (WAF)” page.
+
+   3) When your WAF policies page opens, notice the options on the left side of your screen.
+
+   4) Select “Managed rules” either from the left-hand toolbar or from the box on the bottom of the page, as the following image shows:
+
+   <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2031.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
+   
+   5) When the “Managed rules” page appears, scroll through the page to view the various rules
+
+ <h2>Part 3: Configure Custom WAF Rules</h2>
+
+ 1. Select “Custom rules” from the toolbar on the left-hand side of the screen, as the following image shows:
+
+    <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2032.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<br>
+<br/>
+Select “Custom rules” from the toolbar on the left-hand side of the screen, as the following image shows:
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
