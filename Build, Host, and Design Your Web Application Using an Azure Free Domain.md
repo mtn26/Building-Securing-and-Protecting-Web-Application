@@ -23,7 +23,7 @@ Operating system: Select "Linux."
 
 Region: US East.
 
-The following image shows the completed "Basics" tab:: <br/>
+The following image shows the completed "Basics" tab:<br/>
 <img src="https://github.com/mtn26/Securing-Web-Application/blob/main/Resume%20Project%201%20pic%203.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />  
@@ -151,10 +151,18 @@ In the same index.html file, replace the paragraph beginning "This is a little i
 To change your "Blogs 1 and 2"
 In the same index.html file, replace "Blog Post 1 & 2 Titles, change "Add Keywords" to relevant keywords for your post " to the title of your first blog post, and change the section beginning "Add a short description here" to the text of your blog post:  <br/>
 <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2013.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2014.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<p>4. After each update to your webpage, make sure you back up your index.html file to your /home directory (which stays persistent across reboots) with the following command:
+<p>4. Results after changes have been made in the index.html file. Images as follows:</p>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2010.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/assets/80586285/04c34c3c-8b25-4316-a456-c5c249558a73" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2012.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+<p>5. After each update to your webpage, make sure you back up your index.html file to your /home directory (which stays persistent across reboots) with the following command:
 
 cp /var/www/html/index.html /home
 
