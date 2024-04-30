@@ -121,16 +121,40 @@ The following image shows these steps:
 
 <h2>Part 3: Analyze a Self-Signed Certificate</h2>
 
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+1. From the Azure Portal, select “Key Vaults.” From your key vault, select “Certificates” and then “+ Generate/Import,” as the following image shows:
+
+
+
+<br/>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2027.png?raw=true" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+2. On the “Create a certificate” page, select the following:
+<br>
+</br>
+
+Method of Certificate Creation: Import
+
+Certificate Name: project1PFX-cert
+
+Upload Certificate File: Select your PFX certificate
+
+Password:<br/>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2028.png?raw=true" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+3. Select “Create” to upload your certificate. The following success message should appear to confirm that your PFX certificate has been uploaded to your key vault:
+<br/>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/assets/80586285/dbd9f25c-f4f5-428f-97eb-42c872ab0b2c" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>4. Normally, after uploading a certificate, you would add it to your web application. Since you have selected the free domain option and Azure has already provided a certificate, you will instead analyze a mock self-signed certificate.
+
+<p>5. Examine the webpage’s certificate. Click “Not secure” in the search bar if you are in Chrome, or a similar message depending on your browser. After selecting “Not secure,” select “Certificate (Invalid)” from the menu to examine the certificate.
+</p>
+
+<h2>Part 4: Analyze a Trusted SSL Certificate</h2>
+
+
 </p>
 
 
