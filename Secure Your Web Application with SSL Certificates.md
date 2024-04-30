@@ -154,6 +154,12 @@ Password:<br/>
 
 <h2>Part 4: Analyze a Trusted SSL Certificate</h2>
 
+1. Open a browser, and access the domain (melaisecuirtyresume@azurewebsites.net).
+
+2. Click on the lock icon in the top left of your browser (the left-hand side of the search bar) to analyze your certificate and its details.
+
+
+
 
 </p>
 
