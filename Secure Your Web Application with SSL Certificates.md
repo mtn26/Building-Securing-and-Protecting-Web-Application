@@ -44,16 +44,25 @@ Select Vault Access Policy
 Check the box next to your username
 Click Review + Create
 
-: <br/>
-<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2015.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+5. After your key vault has been created, select your new resource to view your new key vault.
+Preview the options available on your key vault to store secure information, including:
+Keys
+Secrets
+Certificates
+The following image shows these options:
+ <br/>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2025.png?raw=true" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
+<h2>Part 2: Create a Self-Signed Certificate</h2>
+
 Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
