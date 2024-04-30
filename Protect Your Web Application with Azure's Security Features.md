@@ -62,11 +62,38 @@
 
     <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2032.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+ 2. To create a custom rule, select “+ Add custom rule.”
+
+    a) When the pane pops up on the right, name your custom rule “Project1rule”.
+
+    b) Leave the status and rule type at the default options.
+
+    c) Set the priority to 100.
+
+    d) Set the following terms for the rule’s condition:
+         <br>
+         </br>
+     -Match type: Geo location
+         <br>
+         </br>
+     -Match variable: Remoteaddr
+          <br>
+         </br>
+     -Operation: is not
+         <br>
+         </br>
+     -Select the three countries (USA, Canada, Australia) - Don’t forget to add your own country if it isn’t one of the three listed.
+         <br>
+         </br> 
+     -Then: Deny traffic
+
+
 
 <br>
 <br/>
-Select “Custom rules” from the toolbar on the left-hand side of the screen, as the following image shows:
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+3. Your custom rule should now display on the page, as the following image shows:
+
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/assets/80586285/5f2441bb-a9f0-4000-810e-f69f45024747" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
