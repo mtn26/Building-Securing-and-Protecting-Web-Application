@@ -98,7 +98,6 @@ I configured my web app with my container and ran the following: az webapp confi
 <br />
 <br />
 4. I verified that my container was added correctly and ran the following command to show my container for my web app: az webapp config container show --name <name of webapp> --resource-group <name of your resource group>. <br/>
-<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2016.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
