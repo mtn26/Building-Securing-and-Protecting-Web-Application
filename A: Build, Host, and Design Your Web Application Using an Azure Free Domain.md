@@ -120,7 +120,7 @@ I configured my web app with my container and ran the following: az webapp confi
 
 
 
-<p>5. After each update to my webpage, I made sure to back up the index.html file to the /home directory with the following command:
+<p>4. After each update to my webpage, I made sure to back up the index.html file to the /home directory with the following command:
 
 cp /var/www/html/index.html /home
 </p>
