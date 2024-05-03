@@ -2,11 +2,11 @@
 
 <p align="center">
 1. First you select "App Services" from the Azure search field at the top of the page, as the following image shows<br/>
- <img src="https://github.com/mtn26/Securing-Web-Application/blob/main/Resume%20Github%20P1%20pic%201.PNG?raw=true" alt="Resume Github P1 pic 1"/>
+ <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/assets/80586285/8de510ac-c455-44d8-8ba8-11fe520ce439" alt="Resume Github P1 pic 1"/>
 <br />
 <br />
 2. Select "+ Create" to create your application, as the following image shows:<br/>
-<img src="https://github.com/mtn26/Securing-Web-Application/blob/main/Resume%20Github%20P1%20pic%202.PNG?raw=true" height="80%" width="80%" alt="Resume Pic"/>
+<img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/assets/80586285/bc04b829-5480-4cdf-bad0-d7aab6786e87" alt="Resume Pic"/>
 <br />
 <br />
 3. Under the "Basics" tab, make the following selections:
@@ -99,7 +99,7 @@ To configure your web app with your provided container, run the following: az we
 <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%209.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-4. To verify that the container has been added correctly, run the following command to show the container for your web app: az webapp config container show --name <name of webapp> --resource-group <name of your resource group>. Now, check the unique domain that you selected to verify that the container has been successfully deployed. A cyber blog webpage that looks like the following image should appear (note that it may take five to eight minutes to load):  <br/>
+4. To verify that the container has been added correctly, run the following command to show the container for your web app: az webapp config container show --name <name of webapp> --resource-group <name of your resource group>. Now, check the unique domain that you selected to verify that the container has been successfully deployed. A cyber blog webpage that looks like the following image should appear:  <br/>
 <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Resume%20Project%201%20pic%2016.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
