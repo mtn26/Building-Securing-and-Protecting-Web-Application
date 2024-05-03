@@ -37,7 +37,7 @@
 
 9. The message “Azure Front Door is configured for your web app” should display as confirmation, as shown in the following image:
 
-     <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/blob/main/Project%201%20day%203%20front%20door.PNG?raw=true" width="80%" alt="Disk Sanitization Steps"/>
+     <img src="https://github.com/mtn26/Building-Securing-and-Protecting-Web-Application/assets/80586285/b5de5b2d-d13f-4bc5-b528-da83129e4ac3" width="80%" alt="Disk Sanitization Steps"/>
 
      <br>
      </br>
